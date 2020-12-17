@@ -20,7 +20,7 @@ impl<'a> Default for Met<'a> {
 
 /// Pathway contains the id from reactome
 #[derive(Deserialize, Serialize)]
-#[serde(rename_all="camelCase")]
+#[serde(rename_all = "camelCase")]
 pub struct Pathway {
-    pub db_id: i32
+    pub db_id: i32,
 }
