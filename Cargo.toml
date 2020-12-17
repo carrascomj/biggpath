@@ -1,0 +1,12 @@
+[package]
+authors = ["carrascomj <carrascomurielj@gmail.com>"]
+edition = "2018"
+name = "biggpath"
+version = "0.1.0"
+
+[dependencies]
+reqwest ="0.10.10"
+tokio = { version = "0.2", features = ["full"] }
+serde_json = "1.0"
+serde = { version = "1.0", features = [ "derive" ] }
+
